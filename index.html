@@ -16,11 +16,10 @@
             font-family: 'Playfair Display', serif;
         }
         .hero-bg {
-            background-image: linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.82)), 
-                             url('hero-coffee.jpg');
+            background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), 
+                             url('https://picsum.photos/id/1015/2000/1200');
             background-size: cover;
-            background-position: center 30%;
-            background-attachment: fixed;
+            background-position: center;
         }
         .emerald-gold {
             color: #d4af37;
@@ -42,7 +41,7 @@
         </div>
     </nav>
 
-    <!-- HERO - NOW USING YOUR PHOTO -->
+    <!-- HERO - Reverted to original placeholder -->
     <section class="hero-bg h-screen flex items-center justify-center text-center relative">
         <div class="max-w-4xl mx-auto px-6">
             <div class="inline-flex items-center gap-2 bg-emerald-900/70 backdrop-blur-md px-6 py-2 rounded-full text-sm mb-6 border border-emerald-700">
@@ -71,7 +70,7 @@
         </div>
     </section>
 
-    <!-- STORY -->
+    <!-- STORY - Using your attached photo -->
     <section id="story" class="py-24 bg-emerald-950">
         <div class="max-w-5xl mx-auto px-6">
             <div class="grid md:grid-cols-2 gap-16 items-center">
@@ -84,8 +83,8 @@
                     </div>
                 </div>
                 <div class="bg-emerald-900/50 aspect-square rounded-3xl overflow-hidden border border-emerald-800">
-                    <img src="https://picsum.photos/id/1016/800/800" 
-                         alt="Costa Rica Catigua Coffee Highlands" 
+                    <img src="story-coffee.jpg" 
+                         alt="Costa Rica Catigua Coffee Plantation at 1,746 MASL" 
                          class="w-full h-full object-cover">
                 </div>
             </div>
@@ -185,7 +184,7 @@
     </footer>
 
     <script>
-        console.log("%cElite Green Beans - Dark Emerald & Gold Edition | Custom Hero Image Loaded", "color: #10b981; font-size: 14px; font-weight: bold;");
+        console.log("%cElite Green Beans - Story image updated with your photo", "color: #10b981; font-size: 14px; font-weight: bold;");
     </script>
 </body>
 </html>
